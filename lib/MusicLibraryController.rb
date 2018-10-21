@@ -111,24 +111,7 @@ class MusicLibraryController
     end
   end
  
-  
-  #def play_song
-   # puts "Which song number would you like to play?"
-    #input = gets.strip 
-    #songs_sorted = Song.all.uniq.sort_by {|s| s.name} 
 
-#    if input.to_i.between?(1, songs_sorted.length)
-      
-     
- #       puts "Playing #{song.name} by #{song.artist.name}"
-  #    end 
-    
-#  end 
-
-   
-     # songs_sorted.each do |song|
-        #    if input.to_i == song 
-   
 end
 
 
