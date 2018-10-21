@@ -104,8 +104,6 @@ class MusicLibraryController
     songs_sorted = Song.all.uniq.sort_by {|s| s.name} 
   
     input = gets.strip
-    #if (input > 0) && (input <= list_of_songs.size)
-    #if (input >= 1) && (input <= list_of_songs.size)
    
     if input.to_i.between?(1, Song.all.length)
       song = songs_sorted[input.to_i - 1]
